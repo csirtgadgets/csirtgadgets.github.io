@@ -1,0 +1,24 @@
+# Site title and subtitle. This is used in _includes/header.html
+title: 'the CSIRT Gadgets Foundation'
+
+# URL to source code, used in _includes/footer.html
+codeurl: 'https://github.com/csirtgadgets/massive-octo-spice'
+siteurl: 'docs.csirtgadgets.org' 
+baseurl: '/'
+#siteurl: 'http://0.0.0.0:4000'
+
+permalink: none
+
+# Exclude non-site files
+exclude: ['bin', 'README.md']
+
+post_limit: 7 
+
+sections: [
+    ['post', 'Posts'],
+]
+
+# Use the redcarpet Markdown renderer
+markdown: redcarpet
+gems:
+    - jekyll-mentions

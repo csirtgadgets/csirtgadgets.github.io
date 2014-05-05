@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.siteurl }}">the Collective Intelligence Framework</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            {% for section in site.sections %}
+                {% assign attr = section[0] %}
+                {% assign label = section[1] %}
+
+                {% for page in site.categories[attr] %}
+                    {% if forloop.first %}
+                        <li class=nav-header>{{ label }}</li>
+                    {% endif %}
+                    <li data-order="{{ page.order }}"><a href="{{ site.siteurl }}{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

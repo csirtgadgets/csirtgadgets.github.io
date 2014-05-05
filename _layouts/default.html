@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>{{ site.title }}</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--[if lt IE 9]><script type='text/javascript' src='assets/javascript/html5.js'></script><![endif]-->
+		<script type='text/javascript' src='{{ site.siteurl }}/assets/javascript/prettify.js'></script>
+    <script type='text/javascript' src='{{ site.siteurl }}/assets/js/jquery-2.1.0.min.js'></script>
+    <script type='text/javascript' src='{{ site.siteurl }}/assets/js/bootstrap.js'></script>
+
+		<link rel='stylesheet' type='text/css' href='{{ site.siteurl }}/assets/css/style.css' />
+		<link rel='stylesheet' type='text/css' href='{{ site.siteurl }}/assets/css/bootstrap.css' />
+		<link rel='stylesheet' type='text/css' href='{{ site.siteurl }}/assets/css/prettify.css' />
+	</head>
+    <body onload='prettyPrint()'>
+        <div class="container">
+            <div class=row-fluid>
+                <div id=header class=span12>
+                    {% include header.html %}
+                </div>
+            </div>
+
+            <div class=row-fluid>
+                <div id=navigation class=span12>
+                    {% include navigation.html %}
+                </div>
+
+                <div id=content class="panel jumbotron">
+                    {{ content }}
+                </div>
+            </div>
+
+            <div class=row-fluid>
+                <div id=footer class=span12>
+                    {% include footer.html %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
