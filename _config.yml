@@ -3,7 +3,7 @@ title: 'the CSIRT Gadgets Foundation'
 
 # URL to source code, used in _includes/footer.html
 codeurl: 'https://github.com/csirtgadgets/massive-octo-spice'
-siteurl: 'https://docs.csirtgadgets.org' 
+siteurl: 'https://csirtgadgets.github.io' 
 baseurl: '/'
 #siteurl: 'http://0.0.0.0:4000'
 
