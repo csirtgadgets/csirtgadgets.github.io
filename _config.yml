@@ -3,7 +3,7 @@ title: 'docs.csirtgadgets.org'
 menutitle: 'menu'
 
 # URL to source code, used in _includes/footer.html
-siteurl: 'https://csirtgadgets.github.io' 
+siteurl: 'docs.csirtgadgets.org' 
 baseurl: '/'
 #siteurl: 'http://0.0.0.0:4000'
 
