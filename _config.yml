@@ -4,6 +4,7 @@ menutitle: 'menu'
 
 # URL to source code, used in _includes/footer.html
 siteurl: 'docs.csirtgadgets.org' 
+assetsurl: 'https://csirtgadgets.github.io'
 baseurl: '/'
 #siteurl: 'http://0.0.0.0:4000'
 
