@@ -1,1 +1,0 @@
-/Users/wes/Dropbox/git/cif/v2/csirtgadgets.github.io/_posts/2014-05-05-cifv2.md
