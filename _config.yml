@@ -16,6 +16,9 @@ post_limit: 7
 
 sections: [
     ['post', 'Posts'],
+    ['proj', 'Projects'],
+    ['snip', 'Snippets'],
+    ['howto', 'HowTo'],
 ]
 
 # Use the redcarpet Markdown renderer
