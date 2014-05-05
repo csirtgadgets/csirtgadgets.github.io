@@ -1,8 +1,8 @@
 # Site title and subtitle. This is used in _includes/header.html
-title: 'the CSIRT Gadgets Foundation'
+title: 'docs.csirtgadgets.org'
+menutitle: 'menu'
 
 # URL to source code, used in _includes/footer.html
-codeurl: 'https://github.com/csirtgadgets/massive-octo-spice'
 siteurl: 'https://csirtgadgets.github.io' 
 baseurl: '/'
 #siteurl: 'http://0.0.0.0:4000'
