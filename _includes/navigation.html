@@ -16,17 +16,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ site.menutitle }}<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            {% for section in site.sections %}
-                {% assign attr = section[0] %}
-                {% assign label = section[1] %}
-
-                {% for page in site.categories[attr] %}
-                    {% if forloop.first %}
-                        <li class=nav-header>{{ label }}</li>
-                    {% endif %}
-                    <li data-order="{{ page.order }}"><a href="{{ site.siteurl }}{{ page.url }}">{{ page.title }}</a></li>
-                {% endfor %}
-            {% endfor %}
+            <li class=nav-header>Projects</li>
+                <li><a href="cif.html">CIF</a></li>
+            </li>
           </ul>
         </li>
       </ul>
